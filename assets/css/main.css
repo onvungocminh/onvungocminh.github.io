@@ -2635,7 +2635,7 @@ input, select, textarea {
 		.image.main {
 			display: block;
 			margin: 4rem 0;
-			width: 100%;
+			width: 50%;
 		}
 
 			.image.main:first-child {
@@ -2643,7 +2643,7 @@ input, select, textarea {
 			}
 
 			.image.main img {
-				width: 100%;
+				width: 50%;
 			}
 
 		@media screen and (max-width: 736px) {
@@ -4686,4 +4686,45 @@ input, select, textarea {
 			visibility: visible;
 		}
 
+	}
+	
+	.rotate90 {
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    transform: rotate(90deg);
+	}
+	
+	.center {
+	  display: block;
+	  margin-left: auto;
+	  margin-right: auto;
+	  width: 30%;
+	}
+	
+	.user-box img{
+		border-radius:50%;
+		width: 350px;
+		border: 2px solid #6caed5;
+		
+		
+	}
+	
+	.myProgress {
+  width: 100%;
+  background-color: #ddd;
+}
+
+	.myBar {
+	width: 1%;
+	height: 50px;
+	background-color: #4CAF50;
+	}
+
+	.column {
+	  float: left;
+	  width: 50%;
+	  padding: 10px;
+	  height: 300px; /* Should be removed. Only for demonstration */
 	}
